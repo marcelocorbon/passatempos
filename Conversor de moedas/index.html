@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conversor de Moedas</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Conversor de Moedas</h1>
+    <input type="number" id="quantidade" placeholder="Digite a quantidade">
+    <select id="moeda1">
+      <option value="USD">Dólar americano (USD)</option>
+      <option value="EUR">Euro (EUR)</option>
+      <option value="JPY">Iene japonês (JPY)</option>
+      <option value="BRL">Real brasileiro (BRL)</option>
+    </select>
+    para
+    <select id="moeda2">
+      <option value="USD">Dólar americano (USD)</option>
+      <option value="EUR">Euro (EUR)</option>
+      <option value="JPY">Iene japonês (JPY)</option>
+      <option value="BRL">Real brasileiro (BRL)</option>
+    </select>
+    <button onclick="converter()">Converter</button>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
