@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Jogo da Velha do Marcelinho</h1>
+    <div id="tabuleiro">
+      <div class="quadrado" onclick="jogar(this, 0)"></div>
+      <div class="quadrado" onclick="jogar(this, 1)"></div>
+      <div class="quadrado" onclick="jogar(this, 2)"></div>
+      <br>
+      <div class="quadrado" onclick="jogar(this, 3)"></div>
+      <div class="quadrado" onclick="jogar(this, 4)"></div>
+      <div class="quadrado" onclick="jogar(this, 5)"></div>
+      <br>
+      <div class="quadrado" onclick="jogar(this, 6)"></div>
+      <div class="quadrado" onclick="jogar(this, 7)"></div>
+      <div class="quadrado" onclick="jogar(this, 8)"></div>
+    </div>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
