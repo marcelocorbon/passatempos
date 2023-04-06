@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adivinhe o número!</title>
+  </head>
+  <body>
+    <h1>Será que você consegue adivinhar?</h1>
+    <p>Vamos jogar o jogo da adivinhação! Escolhemos um número aleatório entre 1 e 100, 
+        e desafiamos você a adivinhar em até 10 tentativas. Seu objetivo é descobrir se o 
+        número é alto ou baixo, e com essa informação, achar o número certo. 
+        Então, se prepare e vamos ver se você consegue desvendar o número secreto!</p>
+
+    <div class="form">
+      <label for="adivinhe">Qual seu palpite? </label>
+      <input type="number" min="1" max="100" required id="adivinhe" class="adivinhe">
+      <input type="submit" value="Enviar palpite" class="enviar">
+    </div>
+
+    <div class="resultado">
+      <p class="palpites"></p>
+      <p class="ultimoresultado"></p>
+      <p class="altooubaixo"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
